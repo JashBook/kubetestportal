@@ -8,7 +8,7 @@ ALIYUN_USERNAME=$3
 ALIYUN_PASSWORD=$4
 FILE_NAME=$5
 
-while read -r line
+while read -r image
 do
    skopeo sync --all \
       --src-username "$DOCKER_USERNAME" \
@@ -17,7 +17,7 @@ do
       --dest-password "$ALIYUN_PASSWORD" \
       --src docker \
       --dest docker \
-      docker.io/$line \
+      docker.io/$image \
       registry.cn-hangzhou.aliyuncs.com/apecloud
 
 done < $FILE_NAME

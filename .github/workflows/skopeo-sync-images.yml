@@ -1,4 +1,4 @@
-name: skopeo sync kubeblocks
+name: skopeo sync images
 
 on:
   workflow_dispatch:
@@ -12,13 +12,12 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      - name : skopeo sync kubeblocks
+      - name : skopeo sync images
         run: |
           brew install skopeo
           skopeo sync -h
           if [[ ! -z "${{ github.event.inputs.images_name }}" ]];then
               echo "${{ github.event.inputs.images_name }}" > ${{ github.workspace }}/.github/utils/images-list.txt
-              echo "" > ${{ github.workspace }}/.github/utils/images-list.txt
           fi
           
           bash ${{ github.workspace }}/.github/utils/skopeo_sync.sh \
