@@ -1,4 +1,4 @@
-name: API-TEST-MINIKUBE-CSI
+name: API-TEST-CHAOS-MINIKUBE-CSI
 
 on:
   workflow_dispatch:
