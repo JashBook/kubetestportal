@@ -43,7 +43,7 @@ jobs:
       fail-fast: false
       matrix:
         k3s: [ latest, v1.25, v1.24, v1.23, v1.22 ]
-    name: K3s ${{matrix.k3s}}
+    name: Chaos K3s ${{matrix.k3s}}
     steps:
       - uses: actions/checkout@v3
       - name: setup k3s

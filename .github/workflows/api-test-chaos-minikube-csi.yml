@@ -42,8 +42,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        k8s: [ v1.26.1, v1.25.6, v1.24.10, v1.23.16, v1.22.17 ]
-    name: minikube K8s ${{matrix.k8s}}
+        k8s: [ v1.25.5, v1.24.9, v1.23.15, v1.22.16 ]
+    name: Chaos Minikube Csi ${{matrix.k8s}}
     env:
       K8S: ${{ matrix.k8s }}
     steps:
