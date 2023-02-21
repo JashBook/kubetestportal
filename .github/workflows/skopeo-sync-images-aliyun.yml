@@ -7,8 +7,12 @@ on:
         description: 'sync images name e.g. apecloud/kubeblocks:0.3.8'
         required: false
         default: ''
+      registry:
+        description: 'sync images registry e.g. docker.io'
+        required: false
+        default: 'docker.io'
 
-run-name: sync to aliyun:${{ github.event.inputs.images_name }}
+run-name: sync aliyun:${{ github.event.inputs.images_name }}
 
 jobs:
   script:
@@ -23,9 +27,10 @@ jobs:
               echo "${{ github.event.inputs.images_name }}" > ${{ github.workspace }}/.github/utils/images-list.txt
           fi
           
-          bash ${{ github.workspace }}/.github/utils/skopeo_sync.sh \
+          bash ${{ github.workspace }}/.github/utils/skopeo_sync_to_aliyun.sh \
               "${{ secrets.DOCKER_USER }}" \
               '${{ secrets.DOCKER_PASSWORD }}' \
               "${{ secrets.ALIYUN_USER }}" \
               "${{ secrets.ALIYUN_PASSWORD }}" \
-              ${{ github.workspace }}/.github/utils/images-list.txt 
+              ${{ github.workspace }}/.github/utils/images-list.txt \
+              "${{ github.event.inputs.registry }}"

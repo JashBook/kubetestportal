@@ -7,6 +7,11 @@ DOCKER_PASSWORD=$2
 ALIYUN_USERNAME=$3
 ALIYUN_PASSWORD=$4
 FILE_NAME=$5
+REGISTRY=$6
+
+if [[ -z "$REGISTRY" ]]; then
+    REGISTRY=docker.io
+fi
 
 while read -r image
 do
@@ -17,7 +22,6 @@ do
       --dest-password "$ALIYUN_PASSWORD" \
       --src docker \
       --dest docker \
-      docker.io/$image \
+      $REGISTRY/$image \
       registry.cn-hangzhou.aliyuncs.com/apecloud
-
 done < $FILE_NAME
