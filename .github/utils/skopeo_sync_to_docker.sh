@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -eo pipefail
 
@@ -13,6 +13,7 @@ fi
 
 while read -r image
 do
+   echo "skopeo sync $REGISTRY/$image to docker.io/apecloud"
    skopeo sync --all \
       --src-username "$DOCKER_USERNAME" \
       --src-password "$DOCKER_PASSWORD" \

@@ -24,7 +24,9 @@ jobs:
           brew install skopeo
           skopeo sync -h
           if [[ ! -z "${{ github.event.inputs.images_name }}" ]];then
-              echo "${{ github.event.inputs.images_name }}" > ${{ github.workspace }}/.github/utils/images-list.txt
+              bash ${{ github.workspace }}/.github/utils/utils.sh \
+                  "${{ github.event.inputs.images_name }}" \
+                  ${{ github.workspace }}/.github/utils/images-list.txt
           fi
           
           bash ${{ github.workspace }}/.github/utils/skopeo_sync_to_docker.sh \

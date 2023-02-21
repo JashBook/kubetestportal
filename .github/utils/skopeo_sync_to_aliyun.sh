@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -eo pipefail
 
@@ -15,6 +15,7 @@ fi
 
 while read -r image
 do
+   echo "skopeo sync $REGISTRY/$image to registry.cn-hangzhou.aliyuncs.com/apecloud"
    skopeo sync --all \
       --src-username "$DOCKER_USERNAME" \
       --src-password "$DOCKER_PASSWORD" \
