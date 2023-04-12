@@ -1,8 +1,8 @@
 name: KBCLI-TEST-SCHEDULE
 
 on:
-  schedule:
-    - cron: '0 16 * * *'
+#  schedule:
+#    - cron: '0 16 * * *'
   workflow_dispatch:
     inputs:
       release_version:
@@ -31,15 +31,13 @@ jobs:
       fail-fast: false
       matrix:
         k8s: [ v1.25.5, v1.24.9, v1.23.15, v1.22.16 ]
-    name: Minikube Csi ${{matrix.k8s}}
+    name: Minikube ${{matrix.k8s}}
     env:
       K8S: ${{ matrix.k8s }}
     steps:
-      - uses: actions/checkout@v3
-      - name: install helm
-        uses: azure/setup-helm@v3
+      - uses: azure/setup-kubectl@v3
         with:
-          version: ${{ env.HELM_VERSION }}
+          version: "${{ matrix.k8s }}"
 
       - name: checkout testinfra
         uses: actions/checkout@v3
@@ -49,16 +47,15 @@ jobs:
           path: ./
           token: ${{ env.GITHUB_TOKEN }}
 
-      - name: install minikube k8s
+      - name: setup minikube
         if: inputs.test_type != 4
-        run: |
-          K8S_VERSION=${{ matrix.k8s }} make minikube-start
-          kubectl get nodes --show-labels
-          
-          kubectl apply -f test/resources/basic/test_apply_minikube_sc_standard.yaml
-          kubectl apply -f test/resources/basic/test_apply_minikube_sc_csi_hostpath.yaml
-          kubectl apply -f test/resources/basic/test_apply_minikube_vsc_csi_hostpath.yaml
-
+        uses: medyagh/setup-minikube@latest
+        id: minikube
+        with:
+          cache: false
+          kubernetes-version: ${{ matrix.k8s }}
+          cpus: 2
+          memory: 4096m
 
       - name: run kbcli test
         run: |

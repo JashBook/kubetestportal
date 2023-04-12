@@ -10,7 +10,7 @@ on:
       case_name:
         description: 'test case name'
         required: false
-        default: 'api_test_minikube'
+        default: 'api-test-minikube'
       branch_name:
         description: 'testinfra branch name'
         required: true
@@ -19,10 +19,6 @@ on:
         description: 'kubeblocks release version'
         required: false
         default: 'latest'
-      model:
-        description: 'monitor:open monitor'
-        required: false
-        default: ''
       change_flag:
         description: '1:change wesql cd; 2:change wesql cd fixed passwd'
         required: false
@@ -47,46 +43,31 @@ jobs:
     env:
       K8S: ${{ matrix.k8s }}
     steps:
-      - uses: actions/checkout@v3
       - name: install helm
         uses: azure/setup-helm@v3
         with:
           version: ${{ env.HELM_VERSION }}
+
+      - name: start minikube
+        uses: medyagh/setup-minikube@latest
+        id: minikube
+        with:
+          kubernetes-version: ${{ matrix.k8s }}
+          cache: false
+          cpus: 2
+          memory: 4096m
 
       - name: checkout testinfra
         uses: actions/checkout@v3
         with:
           repository: apecloud/testinfra
           ref: ${{ github.event.inputs.branch_name }}
-          path: testinfra
+          path: ./
           token: ${{ env.GITHUB_TOKEN }}
-
-      - name: install minikube k8s
-        run: |
-          cd testinfra
-          bash ${{ github.workspace }}/testinfra/.github/utils/install-minikube.sh
-          kubectl get nodes --show-labels
 
       - name: install dbaas
         run: |
-          RELEASE_VERSION=`bash ${{ github.workspace }}/testinfra/.github/utils/release-version.sh ${{ env.GITHUB_TOKEN }} ${{ github.event.inputs.release_version }}`
-          echo "RELEASE_VERSION:"$RELEASE_VERSION
-          
-          helm repo add kubeblocks https://apecloud.github.io/helm-charts
-          
-          MODEL=${{ github.event.inputs.model }}
-          if [[ "$MODEL" == "monitor" ]]; then
-            helm upgrade --install kubeblocks kubeblocks/kubeblocks \
-              --version "$RELEASE_VERSION" \
-              --set="prometheus.enabled=true" \
-              --set="grafana.enabled=true" \
-              --set="dashboards.enabled=true"
-          else
-            helm upgrade --install kubeblocks kubeblocks/kubeblocks \
-              --version "$RELEASE_VERSION"
-          fi
-          
-          helm list -A
+          bash .github/utils/install-kubeblocks.sh ${{ github.event.inputs.release_version }}
 
       - name: setup Go
         uses: actions/setup-go@v3
@@ -100,8 +81,7 @@ jobs:
 
       - name: run test
         run: |
-          bash ${{ github.workspace }}/testinfra/.github/utils/change-wesql-cd.sh \
-            ${{ github.workspace }}/testinfra ${{ github.event.inputs.change_flag }}
+          bash .github/utils/change-wesql-cd.sh \
+            ./ ${{ github.event.inputs.change_flag }}
           
-          cd testinfra
           make api-test TEST_MODULE=${{ github.event.inputs.test_module }}
