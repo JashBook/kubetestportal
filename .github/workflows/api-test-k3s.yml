@@ -10,7 +10,7 @@ on:
       case_name:
         description: 'test case name'
         required: false
-        default: 'api_test_k3s'
+        default: 'api-test-k3s'
       branch_name:
         description: 'testinfra branch name'
         required: true
@@ -19,10 +19,6 @@ on:
         description: 'kubeblocks release version'
         required: false
         default: 'latest'
-      model:
-        description: 'monitor:open monitor'
-        required: false
-        default: ''
       change_flag:
         description: '1:change wesql cd; 2:change wesql cd fixed passwd'
         required: false
@@ -45,18 +41,13 @@ jobs:
         k3s: [ latest, v1.25, v1.24, v1.23, v1.22 ]
     name: K3s ${{matrix.k3s}}
     steps:
-      - uses: actions/checkout@v3
       - name: setup k3s
         uses: nolar/setup-k3d-k3s@v1
         with:
           k3d-name: ${{ env.K3D_NAME }}
           version: ${{ matrix.k3s }}
           github-token: ${{ env.GITHUB_TOKEN }}
-          k3d-args: --agents 2 --no-lb --k3s-node-label topology.kubernetes.io/zone=cn-northwest-1b@agent:0 --k3s-node-label topology.kubernetes.io/zone=cn-northwest-1c@agent:1 --k3s-node-label topology.kubernetes.io/zone=cn-northwest-1a@server:0
-
-      - name: show node labels
-        run: |
-          kubectl get nodes --show-labels
+          k3d-args: --no-lb --k3s-node-label topology.kubernetes.io/zone=cn-northwest-1a@server:0
 
       - name: install helm
         uses: azure/setup-helm@v3
@@ -68,29 +59,12 @@ jobs:
         with:
           repository: apecloud/testinfra
           ref: ${{ github.event.inputs.branch_name }}
-          path: testinfra
+          path: ./
           token: ${{ env.GITHUB_TOKEN }}
 
       - name: install dbaas
         run: |
-          RELEASE_VERSION=`bash ${{ github.workspace }}/testinfra/.github/utils/release-version.sh ${{ env.GITHUB_TOKEN }} ${{ github.event.inputs.release_version }}`
-          echo "RELEASE_VERSION:"$RELEASE_VERSION
-          
-          helm repo add kubeblocks https://apecloud.github.io/helm-charts
-
-          MODEL=${{ github.event.inputs.model }}
-          if [[ "$MODEL" == "monitor" ]]; then
-            helm upgrade --install kubeblocks kubeblocks/kubeblocks \
-              --version "$RELEASE_VERSION" \
-              --set="prometheus.enabled=true" \
-              --set="grafana.enabled=true" \
-              --set="dashboards.enabled=true"
-          else
-            helm upgrade --install kubeblocks kubeblocks/kubeblocks \
-              --version "$RELEASE_VERSION"
-          fi
-          
-          helm list -A
+          bash .github/utils/install-kubeblocks.sh ${{ github.event.inputs.release_version }}
 
       - name: setup Go
         uses: actions/setup-go@v3
@@ -104,8 +78,7 @@ jobs:
 
       - name: run test
         run: |
-          bash ${{ github.workspace }}/testinfra/.github/utils/change-wesql-cd.sh \
-            ${{ github.workspace }}/testinfra ${{ github.event.inputs.change_flag }}
+          bash .github/utils/change-wesql-cd.sh \
+            ./ ${{ github.event.inputs.change_flag }}
           
-          cd testinfra
           make api-test TEST_MODULE=${{ github.event.inputs.test_module }}
