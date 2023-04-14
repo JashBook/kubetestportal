@@ -1,0 +1,53 @@
+name: Terrafrom Destroy
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        description: 'terraform artifact name'
+        required: false
+        default: ''
+
+env:
+  GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_DEFAULT_REGION: cn-northwest-1
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  terraform-destroy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.4.6
+
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: "${{ env.AWS_DEFAULT_REGION }}"
+
+      - name: checkout cloud-provider
+        uses: actions/checkout@v3
+        with:
+          repository: apecloud/cloud-provider
+          ref: "apecd-deploy"
+          path: ./
+          token: ${{ env.GITHUB_TOKEN }}
+
+      - name: download aws-eks artifact
+        uses: actions/download-artifact@v3.0.2
+        with:
+          name: aws-eks-${{ github.sha }}
+          path: ./aws/eks-default-vpc
+
+      - name: terraform destroy
+        run: |
+          cd ./aws/eks-default-vpc
+          bash run.sh --type 2
