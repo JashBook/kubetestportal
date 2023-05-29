@@ -5,14 +5,22 @@ on:
     inputs:
       cluster-version:
         description: 'eks cluster version (e.g. 1.25)'
+        type: string
         required: false
         default: ''
       instance-type:
         description: 'node instance types (e.g. amd64/arm64)'
+        type: string
         required: false
         default: 'amd64'
+      deploy-path:
+        description: 'terraform deploy path'
+        type: string
+        required: false
+        default: ''
       artifact-name:
         description: 'terraform artifact name'
+        type: string
         required: false
         default: ''
 
@@ -51,15 +59,15 @@ jobs:
 
       - name: terraform init aws eks
         run: |
-          cd ./aws/eks-default-vpc
+          cd ${{ inputs.deploy-path }}
           bash run.sh --type 1 \
-              --cluster-version=${{ inputs.cluster-version }} \
-              --instance-type=${{ inputs.instance-type }}
+              --cluster-version ${{ inputs.cluster-version }} \
+              --instance-type ${{ inputs.instance-type }}
 
-      - name: upload aws-eks artifact
+      - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
           if-no-files-found: error
           name: ${{ inputs.artifact-name }}
-          path: ./aws/eks-default-vpc
+          path: ${{ inputs.deploy-path }}
           retention-days: 1
