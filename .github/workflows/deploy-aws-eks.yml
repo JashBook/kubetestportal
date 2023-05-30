@@ -30,6 +30,7 @@ jobs:
       cluster-version: ${{ inputs.CLUSTER_VERSION }}
       instance-type: ${{ inputs.INSTANCE_TYPE }}
       artifact-name: aws-eks-${{ github.sha }}
+      deploy-path: ./aws/eks-default-vpc
     secrets: inherit
 
   destroy-aws-eks:
@@ -38,4 +39,5 @@ jobs:
     uses: ./.github/workflows/terraform-destroy.yml
     with:
       artifact-name: aws-eks-${{ github.sha }}
+      deploy-path: ./aws/eks-default-vpc
     secrets: inherit
