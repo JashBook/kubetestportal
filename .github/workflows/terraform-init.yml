@@ -23,12 +23,16 @@ on:
         type: string
         required: false
         default: ''
+      region:
+        description: 'terraform artifact name'
+        type: string
+        required: false
+        default: 'cn-northwest-1'
 
 env:
   GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_DEFAULT_REGION: cn-northwest-1
 
 permissions:
   id-token: write
@@ -37,6 +41,8 @@ permissions:
 jobs:
   terraform-init:
     runs-on: ubuntu-latest
+    outputs:
+      eks-cluster-name: ${{ steps.terraform_init.outputs.eks-cluster-name }}
     steps:
       - uses: actions/checkout@v3
       - uses: hashicorp/setup-terraform@v2
@@ -47,7 +53,7 @@ jobs:
         with:
           aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
-          aws-region: "${{ env.AWS_DEFAULT_REGION }}"
+          aws-region: "${{ inputs.region }}"
 
       - name: checkout cloud-provider
         uses: actions/checkout@v3
@@ -58,12 +64,16 @@ jobs:
           token: ${{ env.GITHUB_TOKEN }}
 
       - name: terraform init aws eks
+        id: terraform_init
         run: |
           cd ${{ inputs.deploy-path }}
           bash run.sh --type 1 \
               --cluster-version ${{ inputs.cluster-version }} \
               --instance-type ${{ inputs.instance-type }}
-
+          
+          EKS_CLUSTER_NAME=$(cat terraform.tfstate | grep "\"EKS\":" | awk 'NR==1{print $2}' | sed 's/,//g;s/\"//g')
+          echo eks-cluster-name=${EKS_CLUSTER_NAME} >> $GITHUB_OUTPUT
+      
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
