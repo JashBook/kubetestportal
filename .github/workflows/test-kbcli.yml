@@ -80,11 +80,15 @@ jobs:
             --args "${{ inputs.test-args }}" \
             --region "${{ inputs.region }}" \
             --cluster-name ${{ inputs.eks-cluster-name }} | tee $file_log
-          
+
+      - name: copy log file
+        if: ${{ always() }}
+        run: |
           mkdir -p ${{ env.S3_PATH }}
           cp $file_log ${{ env.S3_PATH }}
 
       - uses: shallwefootball/s3-upload-action@master
+        if: ${{ always() }}
         name: upload logs to S3
         with:
           aws_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
