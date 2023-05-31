@@ -17,7 +17,7 @@ on:
         description: 'test type (1:mysql 2:postgresql 5:redis 6:mongodb)'
         type: string
         required: false
-        default: '1|2|5|6'
+        default: '1'
       test-args:
         description: 'test args'
         type: string
@@ -38,7 +38,6 @@ env:
   GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  S3_PATH: testinfra/kbcli-test/${{ inputs.test-type }}/${{ inputs.release-version }}
 
 permissions:
   id-token: write
@@ -74,18 +73,27 @@ jobs:
         run: |
           file_log="$(date +%Y-%m-%d-%T)".log
           
+          KB_VERSION=$( bash .github/utils/get_kb_latest_version.sh \
+              ${{ inputs.release-version }} )
+          
+          S3_PATH=$( bash ${{ github.workspace }}/.github/utils/utils.sh \
+              --type 2 --test-type ${{ inputs.test-type }} \
+              --kubeblocks-version ${KB_VERSION} )
+          mkdir -p ${S3_PATH}
+          echo 'S3_PATH='${S3_PATH} >> $GITHUB_ENV
+          
+          echo "eks-cluster-name:${{ inputs.eks-cluster-name }}"
           bash .github/utils/kbcli-test.sh \
-            --type ${{ inputs.test-type }} \
-            --kubeblocks-version ${{ inputs.release-version }} \
-            --args "${{ inputs.test-args }}" \
-            --region "${{ inputs.region }}" \
-            --cluster-name ${{ inputs.eks-cluster-name }} | tee $file_log
+              --type ${{ inputs.test-type }} \
+              --kubeblocks-version ${KB_VERSION} \
+              --args "${{ inputs.test-args }}" \
+              --region "${{ inputs.region }}" \
+              --cluster-name ${{ inputs.eks-cluster-name }} | tee $file_log
 
       - name: copy log file
         if: ${{ always() }}
         run: |
-          mkdir -p ${{ env.S3_PATH }}
-          cp $file_log ${{ env.S3_PATH }}
+          cp $file_log ${S3_PATH}
 
       - uses: shallwefootball/s3-upload-action@master
         if: ${{ always() }}
@@ -94,6 +102,6 @@ jobs:
           aws_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ env.AWS_SECRET_ACCESS_KEY }}
           aws_bucket: ${{ vars.AWS_S3_BUCKET }}
-          source_dir: '${{ env.S3_PATH }}'
-          destination_dir: '${{ env.S3_PATH }}'
           endpoint: "${{ vars.AWS_S3_ENDPOINT }}"
+          source_dir: '${S3_PATH}'
+          destination_dir: '${S3_PATH}}'

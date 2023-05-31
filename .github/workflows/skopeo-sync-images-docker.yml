@@ -25,8 +25,9 @@ jobs:
           skopeo sync -h
           if [[ ! -z "${{ github.event.inputs.images_name }}" ]];then
               bash ${{ github.workspace }}/.github/utils/utils.sh \
-                  "${{ github.event.inputs.images_name }}" \
-                  ${{ github.workspace }}/.github/utils/images-list.txt
+                  --type 1 \
+                  --images "${{ github.event.inputs.images_name }}" \
+                  --images-list ${{ github.workspace }}/.github/utils/images-list.txt
           fi
           
           bash ${{ github.workspace }}/.github/utils/skopeo_sync_to_docker.sh \
