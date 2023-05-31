@@ -6,7 +6,7 @@ on:
       CLUSTER_VERSION:
         description: 'eks cluster version (e.g. 1.25)'
         required: false
-        default: ''
+        default: '1.25'
       INSTANCE_TYPE:
         description: 'node instance types (e.g. amd64/arm64)'
         required: false
@@ -16,7 +16,7 @@ on:
         required: false
         default: 'latest'
 
-run-name: kbcli test ${{ inputs.CLUSTER_VERSION }} ${{ inputs.INSTANCE_TYPE }}
+run-name: kbcli:${{ inputs.KB_VERSION }} k8s:${{ inputs.CLUSTER_VERSION }}:${{ inputs.INSTANCE_TYPE }}
 
 env:
   GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
