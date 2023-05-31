@@ -1,4 +1,4 @@
-name: Terrafrom init
+name: Terrafrom Init
 
 on:
   workflow_call:
@@ -28,6 +28,10 @@ on:
         type: string
         required: false
         default: 'cn-northwest-1'
+    outputs:
+      eks-cluster-name:
+        description: "eks cluster name"
+        value: ${{ jobs.terraform-init.outputs.eks-cluster-name }}
 
 env:
   GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -70,8 +74,9 @@ jobs:
           bash run.sh --type 1 \
               --cluster-version ${{ inputs.cluster-version }} \
               --instance-type ${{ inputs.instance-type }}
-          
+
           EKS_CLUSTER_NAME=$(cat terraform.tfstate | grep "\"EKS\":" | awk 'NR==1{print $2}' | sed 's/,//g;s/\"//g')
+          echo "eks-cluster-name:${EKS_CLUSTER_NAME}"
           echo eks-cluster-name=${EKS_CLUSTER_NAME} >> $GITHUB_OUTPUT
       
       - name: upload artifact
