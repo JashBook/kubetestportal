@@ -73,6 +73,7 @@ jobs:
         run: |
           file_log="$(date +%Y-%m-%d-%T)".log
           touch ${file_log}
+          echo "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" >> ${file_log}
           echo 'FILE_LOG='${file_log} >> $GITHUB_ENV
           
           KB_VERSION=$( bash .github/utils/get_kb_latest_version.sh \
@@ -95,6 +96,7 @@ jobs:
       - name: copy log file
         if: ${{ always() }}
         run: |
+          echo "cp ${FILE_LOG} ${S3_PATH}"
           cp ${FILE_LOG} ${S3_PATH}
 
       - uses: shallwefootball/s3-upload-action@master
@@ -104,6 +106,6 @@ jobs:
           aws_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ env.AWS_SECRET_ACCESS_KEY }}
           aws_bucket: ${{ vars.AWS_S3_BUCKET }}
-          endpoint: "${{ vars.AWS_S3_ENDPOINT }}"
-          source_dir: '${S3_PATH}'
-          destination_dir: '${S3_PATH}}'
+          source_dir: ${{ env.S3_PATH }}
+          destination_dir: ${{ env.S3_PATH }}
+          endpoint: ${{ vars.AWS_S3_ENDPOINT }}
