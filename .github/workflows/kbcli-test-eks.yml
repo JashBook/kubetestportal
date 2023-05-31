@@ -36,7 +36,7 @@ jobs:
     secrets: inherit
 
   test-mysql:
-    if: ${{ needs.init-aws-eks.result == "success" }}
+    if: ${{ needs.init-aws-eks.result == 'success' }}
     needs: init-aws-eks
     uses: ./.github/workflows/test-kbcli.yml
     with:
@@ -47,7 +47,7 @@ jobs:
     secrets: inherit
 
   test-postgresql:
-    if: ${{ always() && needs.init-aws-eks.result == "success" }}
+    if: ${{ always() && needs.init-aws-eks.result == 'success' }}
     needs: [init-aws-eks,test-mysql]
     uses: ./.github/workflows/test-kbcli.yml
     with:
@@ -58,7 +58,7 @@ jobs:
     secrets: inherit
 
   test-redis:
-    if: ${{ always() && needs.init-aws-eks.result == "success" }}
+    if: ${{ always() && needs.init-aws-eks.result == 'success' }}
     needs: [init-aws-eks,test-postgresql]
     uses: ./.github/workflows/test-kbcli.yml
     with:
@@ -69,7 +69,7 @@ jobs:
     secrets: inherit
 
   test-mongodb:
-    if: ${{ always() && needs.init-aws-eks.result == "success" }}
+    if: ${{ always() && needs.init-aws-eks.result == 'success' }}
     needs: [init-aws-eks,test-redis]
     uses: ./.github/workflows/test-kbcli.yml
     with:
