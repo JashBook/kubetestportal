@@ -1,4 +1,4 @@
-name: Test Kbcli EKS
+name: Test KBCLI on EKS
 
 on:
   workflow_dispatch:
@@ -38,18 +38,18 @@ jobs:
   test-mysql:
     if: ${{ needs.init-aws-eks.result == "success" }}
     needs: init-aws-eks
-    uses: ./.github/workflows/kbcli-test.yml
+    uses: ./.github/workflows/test-kbcli.yml
     with:
       release-version: "${{ inputs.KB_VERSION }}"
       test-type: "1"
-      test-args: "--enable-termination-policy false"
+      test-args: "--enable-termination-policy false --upgrade true "
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
     secrets: inherit
 
   test-postgresql:
     if: ${{ always() && needs.init-aws-eks.result == "success" }}
     needs: [init-aws-eks,test-mysql]
-    uses: ./.github/workflows/kbcli-test.yml
+    uses: ./.github/workflows/test-kbcli.yml
     with:
       release-version: "${{ inputs.KB_VERSION }}"
       test-type: "2"
@@ -60,7 +60,7 @@ jobs:
   test-redis:
     if: ${{ always() && needs.init-aws-eks.result == "success" }}
     needs: [init-aws-eks,test-postgresql]
-    uses: ./.github/workflows/kbcli-test.yml
+    uses: ./.github/workflows/test-kbcli.yml
     with:
       release-version: "${{ inputs.KB_VERSION }}"
       test-type: "5"
@@ -71,7 +71,7 @@ jobs:
   test-mongodb:
     if: ${{ always() && needs.init-aws-eks.result == "success" }}
     needs: [init-aws-eks,test-redis]
-    uses: ./.github/workflows/kbcli-test.yml
+    uses: ./.github/workflows/test-kbcli.yml
     with:
       release-version: "${{ inputs.KB_VERSION }}"
       test-type: "6"
