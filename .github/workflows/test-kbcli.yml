@@ -72,6 +72,7 @@ jobs:
       - name: run kbcli test
         run: |
           file_log="$(date +%Y-%m-%d-%T)".log
+          echo 'FILE_LOG='${file_log} >> $GITHUB_ENV
           
           KB_VERSION=$( bash .github/utils/get_kb_latest_version.sh \
               ${{ inputs.release-version }} )
@@ -88,12 +89,12 @@ jobs:
               --kubeblocks-version ${KB_VERSION} \
               --args "${{ inputs.test-args }}" \
               --region "${{ inputs.region }}" \
-              --cluster-name ${{ inputs.eks-cluster-name }} | tee $file_log
+              --cluster-name ${{ inputs.eks-cluster-name }} | tee ${FILE_LOG}
 
       - name: copy log file
         if: ${{ always() }}
         run: |
-          cp $file_log ${S3_PATH}
+          cp ${FILE_LOG} ${S3_PATH}
 
       - uses: shallwefootball/s3-upload-action@master
         if: ${{ always() }}
