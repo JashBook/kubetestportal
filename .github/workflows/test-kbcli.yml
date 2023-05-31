@@ -72,6 +72,7 @@ jobs:
       - name: run kbcli test
         run: |
           file_log="$(date +%Y-%m-%d-%T)".log
+          touch ${file_log}
           echo 'FILE_LOG='${file_log} >> $GITHUB_ENV
           
           KB_VERSION=$( bash .github/utils/get_kb_latest_version.sh \
@@ -89,7 +90,7 @@ jobs:
               --kubeblocks-version ${KB_VERSION} \
               --args "${{ inputs.test-args }}" \
               --region "${{ inputs.region }}" \
-              --cluster-name ${{ inputs.eks-cluster-name }} | tee ${FILE_LOG}
+              --cluster-name ${{ inputs.eks-cluster-name }} | tee -a ${file_log}
 
       - name: copy log file
         if: ${{ always() }}

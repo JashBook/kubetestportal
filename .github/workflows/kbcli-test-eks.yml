@@ -15,6 +15,10 @@ on:
         description: 'kubeblocks release version'
         required: false
         default: 'latest'
+      BRANCH_NAME:
+        description: 'testinfra branch name'
+        required: false
+        default: 'main'
 
 run-name: kbcli:${{ inputs.KB_VERSION }} k8s:${{ inputs.CLUSTER_VERSION }}:${{ inputs.INSTANCE_TYPE }}
 
@@ -44,6 +48,7 @@ jobs:
       test-type: "1"
       test-args: "--enable-termination-policy false --upgrade true "
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
+      branch-name: ${{ inputs.branch-name }}
     secrets: inherit
 
   test-postgresql:
@@ -55,6 +60,7 @@ jobs:
       test-type: "2"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
+      branch-name: ${{ inputs.branch-name }}
     secrets: inherit
 
   test-redis:
@@ -66,6 +72,7 @@ jobs:
       test-type: "5"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
+      branch-name: ${{ inputs.branch-name }}
     secrets: inherit
 
   test-mongodb:
@@ -77,6 +84,7 @@ jobs:
       test-type: "6"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
+      branch-name: ${{ inputs.branch-name }}
     secrets: inherit
 
   destroy-aws-eks:
