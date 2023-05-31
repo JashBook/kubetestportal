@@ -1,4 +1,4 @@
-name: Test KBCLI on EKS
+name: KBCLI Test on EKS
 
 on:
   workflow_dispatch:
