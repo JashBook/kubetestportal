@@ -48,7 +48,7 @@ jobs:
       test-type: "1"
       test-args: "--enable-termination-policy false --upgrade true "
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      branch-name: ${{ inputs.branch-name }}
+      branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
   test-postgresql:
@@ -60,7 +60,7 @@ jobs:
       test-type: "2"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      branch-name: ${{ inputs.branch-name }}
+      branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
   test-redis:
@@ -72,7 +72,7 @@ jobs:
       test-type: "5"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      branch-name: ${{ inputs.branch-name }}
+      branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
   test-mongodb:
@@ -84,7 +84,7 @@ jobs:
       test-type: "6"
       test-args: "--enable-termination-policy false --upgrade false --config-s3 false"
       eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      branch-name: ${{ inputs.branch-name }}
+      branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
   destroy-aws-eks:
