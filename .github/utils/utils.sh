@@ -26,11 +26,11 @@ eval_cmd() {
 }
 
 set_images_list() {
-    rm -f $images_list
-    touch $images_list
+    rm -f $IMAGES_LIST
+    touch $IMAGES_LIST
 
-    for image in `echo "$images" | sed 's/|/ /g'`; do
-       echo "$image" >> $images_list
+    for image in `echo "$IMAGES" | sed 's/|/ /g'`; do
+       echo "$image" >> $IMAGES_LIST
     done
 }
 
