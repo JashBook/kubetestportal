@@ -89,13 +89,15 @@ jobs:
           bash .github/utils/kbcli-test.sh \
               --type ${{ inputs.test-type }} \
               --kubeblocks-version ${KB_VERSION} \
-              --args "${{ inputs.test-args }} --aws-access-key-id=${{ env.AWS_ACCESS_KEY_ID }} --aws-secret-access-key=${{ env.AWS_SECRET_ACCESS_KEY }}" \
+              --args "${{ inputs.test-args }} --aws-access-key-id ${{ env.AWS_ACCESS_KEY_ID }} --aws-secret-access-key ${{ env.AWS_SECRET_ACCESS_KEY }}" \
               --region "${{ inputs.region }}" \
               --cluster-name ${{ inputs.eks-cluster-name }} | tee -a ${file_log}
 
       - name: copy log file
         if: ${{ always() }}
         run: |
+          sed -i 's/${{ env.AWS_ACCESS_KEY_ID }}/***/g' ${FILE_LOG}
+          sed -i 's/${{ env.AWS_SECRET_ACCESS_KEY }}/***/g' ${FILE_LOG}
           echo "cp ${FILE_LOG} ${S3_PATH}"
           cp ${FILE_LOG} ${S3_PATH}
 
