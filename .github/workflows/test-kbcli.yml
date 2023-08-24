@@ -12,7 +12,7 @@ on:
         description: 'testinfra branch name'
         type: string
         required: false
-        default: 'main'
+        default: 'kbcli'
       test-type:
         description: 'test type (1:mysql 2:postgresql 5:redis 6:mongodb)'
         type: string
@@ -24,7 +24,7 @@ on:
         required: false
         default: ''
       region:
-        description: 'terraform artifact name'
+        description: 'eks region name'
         type: string
         required: false
         default: 'cn-northwest-1'
@@ -92,6 +92,11 @@ jobs:
               --args "${{ inputs.test-args }} --aws-access-key-id ${{ env.AWS_ACCESS_KEY_ID }} --aws-secret-access-key ${{ env.AWS_SECRET_ACCESS_KEY }}" \
               --region "${{ inputs.region }}" \
               --cluster-name ${{ inputs.eks-cluster-name }} | tee -a ${file_log}
+          
+          test_ret="$( grep "【FAILED】" ${FILE_LOG} )"
+          if [[ -n "$test_ret" ]]; then
+              exit 1
+          fi
 
       - name: copy log file
         if: ${{ always() }}
