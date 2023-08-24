@@ -39,6 +39,19 @@ jobs:
 #      deploy-path: ./aws/eks-default-vpc
 #    secrets: inherit
 
+  install-kubeblocks:
+    #    if: ${{ needs.init-aws-eks.result == 'success' }}
+    #    needs: init-aws-eks
+    uses: ./.github/workflows/test-kbcli.yml
+    with:
+      release-version: "${{ inputs.KB_VERSION }}"
+      test-type: "0"
+      test-args: "--config-s3 true --upgrade true "
+      #      eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
+      eks-cluster-name: cicd-eks-xzNAusUi
+      branch-name: ${{ inputs.BRANCH_NAME }}
+    secrets: inherit
+
   test-mysql:
 #    if: ${{ needs.init-aws-eks.result == 'success' }}
 #    needs: init-aws-eks
@@ -48,7 +61,7 @@ jobs:
       test-type: "1"
       test-args: ""
 #      eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      eks-cluster-name: cdRunner
+      eks-cluster-name: cicd-eks-xzNAusUi
       branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
@@ -63,7 +76,7 @@ jobs:
       test-type: "2"
       test-args: ""
 #      eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      eks-cluster-name: cdRunner
+      eks-cluster-name: cicd-eks-xzNAusUi
       branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
@@ -78,7 +91,7 @@ jobs:
       test-type: "5"
       test-args: ""
 #      eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      eks-cluster-name: cdRunner
+      eks-cluster-name: cicd-eks-xzNAusUi
       branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 
@@ -93,7 +106,7 @@ jobs:
       test-type: "6"
       test-args: ""
 #      eks-cluster-name: ${{ needs.init-aws-eks.outputs.eks-cluster-name }}
-      eks-cluster-name: cdRunner
+      eks-cluster-name: cicd-eks-xzNAusUi
       branch-name: ${{ inputs.BRANCH_NAME }}
     secrets: inherit
 

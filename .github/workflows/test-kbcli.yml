@@ -92,6 +92,11 @@ jobs:
               --args "${{ inputs.test-args }} --aws-access-key-id ${{ env.AWS_ACCESS_KEY_ID }} --aws-secret-access-key ${{ env.AWS_SECRET_ACCESS_KEY }}" \
               --region "${{ inputs.region }}" \
               --cluster-name ${{ inputs.eks-cluster-name }} | tee -a ${file_log}
+          
+          test_ret="$( grep "【FAILED】" ${FILE_LOG} )"
+          if [[ -n "$test_ret" ]]; then
+              exit 1
+          fi
 
       - name: copy log file
         if: ${{ always() }}
@@ -100,11 +105,6 @@ jobs:
           sed -i 's/${{ env.AWS_SECRET_ACCESS_KEY }}/***/g' ${FILE_LOG}
           echo "cp ${FILE_LOG} ${S3_PATH}"
           cp ${FILE_LOG} ${S3_PATH}
-          test_ret="$( grep "【FAILED】" ${FILE_LOG} )"
-          if [[ -n "$test_ret" ]]; then
-              echo "$test_ret"
-              exit 1
-          fi
 
       - uses: shallwefootball/s3-upload-action@master
         if: ${{ always() }}
