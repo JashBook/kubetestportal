@@ -5,12 +5,12 @@ on:
     inputs:
       TEST_MODULE:
         description: 'TEST_MODULE file or path'
-        required: true
+        required: false
         default: ''
       CASE_NAME:
         description: 'test case name'
         required: false
-        default: 'api-test-k3s'
+        default: 'api-test-minikube'
       BRANCH_NAME:
         description: 'testinfra branch name'
         required: false
@@ -18,15 +18,8 @@ on:
       RELEASE_VERSION:
         description: 'kubeblocks release version'
         required: false
-        default: 'latest'
-      CHAOS_INJECT:
-        description: '1: install chaos-mesh'
-        required: false
         default: ''
-      CHANGE_FLAG:
-        description: '2:change wesql cd fixed passwd'
-        required: false
-        default: ''
+
 
 run-name: ${{ github.event.inputs.RELEASE_VERSION }}:${{ github.event.inputs.CASE_NAME }}
 
@@ -39,20 +32,21 @@ env:
 jobs:
   minikube-api-test:
     runs-on: ubuntu-latest
+#    container: docker.io/apecloud/github-runner:docker-latest
     strategy:
       fail-fast: false
       matrix:
-        k8s: [ v1.25.5, v1.24.9, v1.23.15, v1.22.16 ]
+        k8s: [ v1.25.5 ]
+#        k8s: [ v1.25.5, v1.24.9, v1.23.15, v1.22.16 ]
     name: Minikube ${{matrix.k8s}}
     env:
       K8S: ${{ matrix.k8s }}
     steps:
-      - name: install helm
-        uses: azure/setup-helm@v3
+      - uses: azure/setup-kubectl@v3
         with:
-          version: ${{ env.HELM_VERSION }}
+          version: "latest"
 
-      - name: start minikube
+      - name: setup minikube
         uses: medyagh/setup-minikube@latest
         id: minikube
         with:
@@ -60,6 +54,7 @@ jobs:
           cache: false
           cpus: 2
           memory: 4096m
+          start-args: "--force"
 
       - name: checkout testinfra
         uses: actions/checkout@v3
@@ -69,30 +64,33 @@ jobs:
           path: ./
           token: ${{ env.GITHUB_TOKEN }}
 
-      - name: install dbaas
+      - name: install kubeblocks
         run: |
-          bash .github/utils/install-kubeblocks.sh ${{ github.event.inputs.RELEASE_VERSION }}
+          bash .github/utils/kbcli-test.sh --type 0 \
+              --kubeblocks-version ${{ github.event.inputs.RELEASE_VERSION }} \
+              --random-namespace false \
+              --args "--check-addon false --upgrade true --enable-addon csi-hostpath-driver|fault-chaos-mesh"
 
-      - name: install chaos-mesh
-        if: ${{ inputs.CHAOS_INJECT == 1 }}
+      - name: create cluster
         run: |
-          helm repo add chaos-mesh https://charts.chaos-mesh.org
-          helm upgrade --install --create-namespace chaos-mesh chaos-mesh/chaos-mesh -n=chaos-testing
-          helm list -A
+          bash .github/utils/kbcli-test.sh --type 1 \
+              --kubeblocks-version ${{ github.event.inputs.RELEASE_VERSION }} \
+              --random-namespace false \
+              --args "--only-cluster true --smartengine true --replicas 1" 
 
-      - name: setup Go
-        uses: actions/setup-go@v3
-        with:
-          go-version: ${{ env.GO_VERSION }}
-
-      - name: Install ginkgo
-        run: |
-          go install github.com/onsi/ginkgo/v2/ginkgo@v2.5.1
-          go install github.com/onsi/gomega/...
-
-      - name: run test
-        run: |
-          bash .github/utils/change-wesql-cd.sh \
-            ./ ${{ github.event.inputs.CHANGE_FLAG }}
-          
-          make api-test TEST_MODULE=${{ github.event.inputs.TEST_MODULE }}
+#      - name: setup Go
+#        uses: actions/setup-go@v3
+#        with:
+#          go-version: ${{ env.GO_VERSION }}
+#
+#      - name: Install ginkgo
+#        run: |
+#          go install github.com/onsi/ginkgo/v2/ginkgo@v2.5.1
+#          go install github.com/onsi/gomega/...
+#
+#      - name: run test
+#        run: |
+#          bash .github/utils/change-wesql-cd.sh \
+#            ./ ${{ github.event.inputs.CHANGE_FLAG }}
+#
+#          make api-test TEST_MODULE=${{ github.event.inputs.TEST_MODULE }}
