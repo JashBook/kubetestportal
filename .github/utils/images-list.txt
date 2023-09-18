@@ -1,4 +1,5 @@
-apecloud/terraform-aws-cliapecloud/loadbalancer
+apecloud/terraform-aws-cli
+apecloud/loadbalancer
 apecloud/github-runner
 apecloud/pause
 apecloud/pg14-disk-test
