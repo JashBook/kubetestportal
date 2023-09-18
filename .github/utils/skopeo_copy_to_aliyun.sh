@@ -21,7 +21,7 @@ do
             docker://$REGISTRY/$image \
             docker://registry.cn-hangzhou.aliyuncs.com/apecloud/$image_name)
         echo "return message:$ret_msg"
-        if [[ "$ret_msg" == *"Storing list signatures"* ]]; then
+        if [[ "$ret_msg" == *"Storing list signatures"* || "$ret_msg" == *"Skipping"* ]]; then
             echo "$(tput -T xterm setaf 2)$ret_msg$(tput -T xterm sgr0)"
             skopeo_flag=1
             break
