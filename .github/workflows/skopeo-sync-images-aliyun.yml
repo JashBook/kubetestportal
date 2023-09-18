@@ -37,3 +37,11 @@ jobs:
               "${{ secrets.ALIYUN_PASSWORD }}" \
               ${{ github.workspace }}/.github/utils/images-list.txt \
               "${{ github.event.inputs.registry }}"
+          
+          bash ${{ github.workspace }}/.github/utils/skopeo_sync_to_aliyun_new.sh \
+              "${{ secrets.DOCKER_USER }}" \
+              '${{ secrets.DOCKER_PASSWORD }}' \
+              "${{ secrets.ALIYUN_USER_NEW }}" \
+              "${{ secrets.ALIYUN_PASSWORD_NEW }}" \
+              ${{ github.workspace }}/.github/utils/images-list.txt \
+              "${{ github.event.inputs.registry }}"
