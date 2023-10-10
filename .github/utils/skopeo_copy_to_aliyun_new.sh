@@ -20,7 +20,7 @@ do
             --dest-username "$ALIYUN_USERNAME" \
             --dest-password "$ALIYUN_PASSWORD" \
             docker://$REGISTRY/$image \
-            docker://registry.cn-hangzhou.aliyuncs.com/apecloud/$image_name)
+            docker://infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/$image_name)
         echo "return message:$ret_msg"
         if [[ "$ret_msg" == *"Storing list signatures"* || "$ret_msg" == *"Skipping"* ]]; then
             echo "$(tput -T xterm setaf 2)$skopeo_msg success$(tput -T xterm sgr0)"
