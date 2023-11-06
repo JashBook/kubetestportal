@@ -1,0 +1,9 @@
+docker.io:
+  username: "${DOCKER_REGISTRY_USER}"
+  password: "${DOCKER_REGISTRY_PASSWORD}"
+registry.cn-hangzhou.aliyuncs.com:
+  username: "${ALIYUN_REGISTRY_USER}"
+  password: "${ALIYUN_REGISTRY_PASSWORD}"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com:
+  username: "${ALIYUN_USER_NEW}"
+  password: "${ALIYUN_PASSWORD_NEW}"

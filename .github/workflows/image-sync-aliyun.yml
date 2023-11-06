@@ -1,0 +1,40 @@
+name: image sync to aliyun
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_name:
+        description: 'copy image name e.g. apecloud/kubeblocks:0.7.0'
+        required: false
+        default: ''
+      registry:
+        description: 'copy image registry e.g. docker.io'
+        required: false
+        default: 'docker.io'
+
+run-name: image-sync to aliyun:${{ github.event.inputs.image_name }}
+
+jobs:
+  script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: generate image yaml
+        run: |
+          bash .github/utils/generate_image.sh \
+            --type 1 \
+            --image "${{ inputs.image_name }}" \
+            --registry "${{ inputs.registry }}"
+
+      - uses: hhyasdf/image-sync-action@v1.1
+        with:
+          auth_file: ./.github/actions/image-sync-auth.yml
+          images_file: ./image_sync_yaml.yml
+          proc: 6
+        env:
+          DOCKER_REGISTRY_USER: ${{ secrets.DOCKER_USER }}
+          DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USER }}
+          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
+          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
+          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
