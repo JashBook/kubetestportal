@@ -16,11 +16,21 @@ do
     echo "$skopeo_msg"
     skopeo_flag=0
     for i in {1..10}; do
-        ret_msg=$( skopeo copy --all \
-            --dest-username "$DOCKER_USERNAME" \
-            --dest-password "$DOCKER_PASSWORD" \
-            docker://$REGISTRY/$image \
-            docker://docker.io/apecloud/$image_name)
+        if [[ "$REGISTRY" == "docker.io" && "${DOCKER_USER}" != "" && "${DOCKER_PASSWORD}" != "" ]]; then
+            ret_msg=$( skopeo copy --all \
+                --src-username "${DOCKER_USER}" \
+                --src-password "${DOCKER_PASSWORD}" \
+                --dest-username "$DOCKER_USERNAME" \
+                --dest-password "$DOCKER_PASSWORD" \
+                docker://$REGISTRY/$image \
+                docker://docker.io/apecloud/$image_name)
+        else
+            ret_msg=$( skopeo copy --all \
+                --dest-username "$DOCKER_USERNAME" \
+                --dest-password "$DOCKER_PASSWORD" \
+                docker://$REGISTRY/$image \
+                docker://docker.io/apecloud/$image_name)
+        fi
         echo "return message:$ret_msg"
         if [[ "$ret_msg" == *"Storing list signatures"* || "$ret_msg" == *"Skipping"* ]]; then
             echo "$(tput -T xterm setaf 2)$skopeo_msg success$(tput -T xterm sgr0)"

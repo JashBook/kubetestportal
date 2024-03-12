@@ -19,7 +19,7 @@ do
         if [[ "$REGISTRY" == "docker.io" && "${DOCKER_USER}" != "" && "${DOCKER_PASSWORD}" != "" ]]; then
             ret_msg=$( skopeo copy --all \
                 --src-username "${DOCKER_USER}" \
-                --src-username "${DOCKER_PASSWORD}" \
+                --src-password "${DOCKER_PASSWORD}" \
                 --dest-username "$ALIYUN_USERNAME" \
                 --dest-password "$ALIYUN_PASSWORD" \
                 docker://$REGISTRY/$image \
