@@ -28,7 +28,7 @@ generate_image_yaml() {
 tee $image_sync_yaml << EOF
 ${REGISTRY}/${IMAGE}:
   - "infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/${image_name}"
-  - "registry.cn-hangzhou.aliyuncs.com/apecloud/${image_name}"
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/${image_name}"
 EOF
 }
 
