@@ -1,0 +1,1170 @@
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.17.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.18.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.19.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.20.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.21.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.34:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.34"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.35:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.35"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.36:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.36"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.37:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.37"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.38:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.38"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.39:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.39"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.40:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.40"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.41:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.41"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.42:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.42"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.43:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.43"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.44:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.44"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.45:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.45"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.22.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.23.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.34:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.34"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.35:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.35"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0-alpha.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.34:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.34"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.35:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.35"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.36:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.36"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.37:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.37"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.38:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.38"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.39:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.39"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.40:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.40"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.41:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.41"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.42:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.42"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.43:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.43"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.44:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.44"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.45:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.45"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.46:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.46"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.47:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.47"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.48:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.48"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.49:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.49"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.50:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.50"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.51:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.51"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.52:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.52"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.53:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.53"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.54:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.54"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.55:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.55"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.56:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.56"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.57:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.57"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.58:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.58"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.59:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.59"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.60:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.60"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.61:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.61"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.62:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.62"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.63:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.63"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.65:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.65"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.66:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.66"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.67:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.67"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.68:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.68"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.69:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.69"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.70:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.70"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.71:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.71"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.72:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.72"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.73:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.73"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.74:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.74"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.75:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.75"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.76:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.76"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.77:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.77"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.78:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.78"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.79:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.79"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.80:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.80"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.81:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.81"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.82:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.82"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.83:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.83"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.84:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.84"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.85:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.85"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.86:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.86"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.24.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.11:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.11"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.18:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.18"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.19:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.19"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.20:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.20"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.21:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.21"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.22:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.22"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.23:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.23"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.24:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.24"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.25:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.25"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.26:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.26"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.27:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.27"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.28:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.28"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.29:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.29"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.31:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.31"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.32:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.32"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.34:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.34"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.35:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.35"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.36:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.36"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.37:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.37"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.25.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.26.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.26.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.26.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/prompt:v0.26.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/actions-runner-controller:v0.27.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/actions-runner-controller:v0.27.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.0.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.0.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.0.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.0.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.4-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.4-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.5-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.5-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6-test.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.7-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.7-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.0-beta.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-beta.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2-test.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agamotto:0.1.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agent-sd:v0.2.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/agent-sd:v0.2.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.0-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.0-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:0.1.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:gcr-latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager-webhook-adaptor:gcr-latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager:v0.24.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager:v0.24.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager:v0.25.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alertmanager:v0.25.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alpine:3.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alpine:3.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alpine:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/alpine:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.16:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.16"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.17:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-dts:0.1.17"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local-airgap:v0.1.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.11-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.11-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.9:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.1.9"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.2.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/ape-local:0.2.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3-beta1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3-beta1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.4-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.4-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:0.8.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.4-alpha1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.4-alpha1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:oceanbase-0.8.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:starrocks-0.8.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-addon-charts:starrocks-0.8.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-docs:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-docs:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-airgap:v0.8.0-beta.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.1.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:0.2.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:16.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:16.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:InitOrder:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:InitOrder"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:TabletDebug:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:TabletDebug"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:crossClustersBranch:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:crossClustersBranch"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:filter1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:filter1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:filter2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:filter2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:fixExecuteSchema:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:fixExecuteSchema"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:fixMysqld:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:fixMysqld"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:glog120:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:glog120"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:grpc1540:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:grpc1540"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:grpc1621:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:grpc1621"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578-trace-2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578-trace-2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578-trace:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578-trace"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.4-bugfix-1ae376c9857a73df467a598dc7b963d3b7316578"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:release-0.2.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:rolelistener:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:rolelistener"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:rolelistener2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:rolelistener2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:snapshot:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:snapshot"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:snapshot0.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:snapshot0.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:support_buffering:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:support_buffering"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:support_dynamic_pool_size:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:support_dynamic_pool_size"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:supportviper:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:supportviper"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:sysbench:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:sysbench"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:sysbench_pool_size:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:sysbench_pool_size"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.12:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.12"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.13:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.13"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.14:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.14"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.15:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:tablename-0.15"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:upgrade-ls:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-scale:upgrade-ls"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha10.20230725.g8d05885.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha10.20230725.g8d05885.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230105.gd6b8719"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230724.g8d05885.10:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha2.20230724.g8d05885.10"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha3.20230228.g50d8966.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha4.20230314.g7b27c9d.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha4.20230314.g7b27c9d.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha5.20230319.g28f261a.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha5.20230319.g28f261a.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha6.20230414.ga79381c.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha6.20230414.ga79381c.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha7.20230424.gc3b5a05.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/apecloud-mysql-server:8.0.30-5.alpha7.20230424.gc3b5a05.5"
