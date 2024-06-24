@@ -1,0 +1,586 @@
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-jq:8.0.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-jq:8.0.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-operator-orchestrator:v0.6.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-operator-orchestrator:v0.6.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-operator:v0.6.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-operator:v0.6.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-tool:8.0.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql-tool:8.0.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7.42:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7.42"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7.44:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7.44"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:5.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0.30:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0.30"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql:8.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql_audit_log:5.7.44:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql_audit_log:5.7.44"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql_audit_log:8.0.33:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysql_audit_log:8.0.33"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.14.1-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.14.1-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.14.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.14.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.4.0-test.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:0.4.0-test.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:v0.14.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/mysqld-exporter:v0.14.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/neon:pg14-1.0.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/neon:pg14-1.0.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/netdata:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/netdata:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nfsplugin:v4.5.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nfsplugin:v4.5.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-ingress-airgap:v4.8.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-unprivileged:1.24-alpine:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx-unprivileged:1.24-alpine"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx:1.24.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nginx:1.24.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/node-exporter:v1.3.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/node-exporter:v1.3.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nyancat:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/nyancat:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obagent:4.2.1-100000092023101717:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obagent:4.2.1-100000092023101717"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:4.2.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:4.2.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:4.2.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:4.2.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/obtools:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.8.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-airgap:v0.9.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ce:4.3.0.1-100000242024032211:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ce:4.3.0.1-100000242024032211"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1.3-103000052023122809:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1.3-103000052023122809"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1.4-104000062024022914:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1.4-104000062024022914"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase:4.2.0.0-100010032023083021"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/omb:0.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/omb:0.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/omb:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/omb:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.1.0-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.1.0-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.7.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.7.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.7.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.7.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.8.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.8.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.8.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:0.8.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:gfj.test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:gfj.test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:gfj_test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:gfj_test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-local:latest"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/open-localpv:0.1.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/opengauss:3.0.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/opengauss:3.0.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/opensearch-dashboards:2.7.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/opensearch-dashboards:2.7.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oracle:19.3.0-ee:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oracle:19.3.0-ee"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oracledb_exporter:0.5.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oracledb_exporter:0.5.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orc-tools:1.0.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orc-tools:1.0.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orc-tools:1.0.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orc-tools:1.0.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orchestrator:v3.2.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orioledb:beta1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/orioledb:beta1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-demo"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.1-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-demo"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.2-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.0.3-demo"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.0-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.1.2-test.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-beta.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-for-dev"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0-slow.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-alpha0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.1-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog-beta1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-auditlog"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-beta.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.beta2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter.rc"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-fix-nodeexporter"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-node_exporter"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2-perf2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.2.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-beta.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-kb-0.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-pprof-tag"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-for-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0-sys1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.3.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.-dev-0-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-alpha.8"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-beta.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-0-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-dev"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.2"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.3"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.4"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.5"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.6"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent.7"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-ob-ent"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-rep-test"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0-slowquery"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.0"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-arm64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-beta.0-amd64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-beta.0-amd64"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-beta.0-arm64:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oteld:0.4.1-beta.0-arm64"

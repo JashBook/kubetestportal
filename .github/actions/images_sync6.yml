@@ -1,0 +1,4 @@
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/wesql/wesqlserver:wesql-server-dev:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/wesql/wesqlserver:wesql-server-dev"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/wesql/wesqlserver:wesql-server-arm-dev:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/wesql/wesqlserver:wesql-server-arm-dev"
