@@ -81,35 +81,35 @@ jobs:
 #          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
 #          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
 
-  script4:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: hhyasdf/image-sync-action@v1.1
-        with:
-          auth_file: ./.github/actions/image-sync-auth-aliyun.yml
-          images_file: ./.github/actions/images_sync4.yml
-          proc: 6
-        env:
-          ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USER }}
-          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
-          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
-          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
-
-  script4-2:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: hhyasdf/image-sync-action@v1.1
-        with:
-          auth_file: ./.github/actions/image-sync-auth-aliyun.yml
-          images_file: ./.github/actions/images_sync4-2.yml
-          proc: 6
-        env:
-          ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USER }}
-          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
-          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
-          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
+#  script4:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v4
+#      - uses: hhyasdf/image-sync-action@v1.1
+#        with:
+#          auth_file: ./.github/actions/image-sync-auth-aliyun.yml
+#          images_file: ./.github/actions/images_sync4.yml
+#          proc: 6
+#        env:
+#          ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USER }}
+#          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
+#          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
+#          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
+#
+#  script4-2:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v4
+#      - uses: hhyasdf/image-sync-action@v1.1
+#        with:
+#          auth_file: ./.github/actions/image-sync-auth-aliyun.yml
+#          images_file: ./.github/actions/images_sync4-2.yml
+#          proc: 6
+#        env:
+#          ALIYUN_REGISTRY_USER: ${{ secrets.ALIYUN_USER }}
+#          ALIYUN_REGISTRY_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
+#          ALIYUN_USER_NEW: ${{ secrets.ALIYUN_USER_NEW }}
+#          ALIYUN_PASSWORD_NEW: ${{ secrets.ALIYUN_PASSWORD_NEW }}
 
 #  script4-4:
 #    runs-on: ubuntu-latest
