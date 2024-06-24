@@ -1,0 +1,4 @@
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:4.2.1"
+infracreate-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:latest:
+  - "apecloud-registry.cn-zhangjiakou.cr.aliyuncs.com/apecloud/oceanbase-ent:latest"
